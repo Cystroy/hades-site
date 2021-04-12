@@ -16,6 +16,20 @@ table {
 }
 
 
+
+.homePageSection {
+
+    border-top: 2px solid black;
+    margin-top: 15px
+
+}
+
+.homePageSection p {
+
+    background-color:#d66f6f;
+
+}ss
+
 .olympianCell {
 
     text-align: justify;
