@@ -15,21 +15,87 @@ table {
     background-color: 9f6e75;
 }
 
+.logo {
+    background-color: black;
+}
 
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 50%;
+}
 
 .homePageSection {
+    background-color: indianred;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
 
+
+.homePageSection h2 {
+
+    background-color: rgb(119, 45, 45);
+    color: black;
     border-top: 2px solid black;
-    margin-top: 15px
+    border-bottom: 2px solid black;
 
 }
 
 .homePageSection p {
 
-    background-color:#d66f6f;
+    color: rgb(41, 38, 38);
 
 }ss
 
+.homePageSection img {
+    border: 2px solid rgb(161, 94, 94);
+}
+
+.homePageSection hr{
+    background: url('skelly-row-removebg-preview.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    position: relative;
+}
+
+.characterIntro {
+    background-color: indianred;
+    border: 2px solid black;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.characterIntro h1, h2 {
+
+    background-color: rgba(126, 45, 45, 0.89);
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+.characterIntro h2 {
+
+    background-color: rgba(156, 57, 57, 0.89);
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.characterIntro p {
+
+        color: rgb(41, 38, 38);
+
+    }
+
+.characterIntro img {
+        border: 2px solid rgb(161, 94, 94);
+    
 .olympianCell {
 
     text-align: justify;
@@ -42,6 +108,13 @@ table {
     margin: 0 auto;
     
 }
+.weaponCell {
+
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    
+}
 
 .column {
     float: left;
@@ -49,3 +122,5 @@ table {
     height: 200px;
     padding: 0px;
   }
+
+ 
