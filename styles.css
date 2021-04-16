@@ -95,6 +95,17 @@ table {
 
 .characterIntro img {
         border: 2px solid rgb(161, 94, 94);
+
+
+        }
+
+.homePageSection hr{
+    background: url('skelly-row-removebg-preview.png') no-repeat top center;
+    background-size: contain;
+    display: block;
+    height: 30px;
+    border: 0;
+    position: relative;
     
 .olympianCell {
 
