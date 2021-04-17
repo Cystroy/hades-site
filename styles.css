@@ -27,7 +27,7 @@ table {
     width: 50%;
 }
 
-.homePageSection {
+.infoSection {
     background-color: indianred;
     border: 2px solid black;
     margin-top: 15px;
@@ -35,7 +35,7 @@ table {
 }
 
 
-.homePageSection h2 {
+.infoSection h2 {
 
     background-color: rgb(119, 45, 45);
     color: black;
@@ -44,17 +44,17 @@ table {
 
 }
 
-.homePageSection p {
+.infoSection p {
 
     color: rgb(41, 38, 38);
 
 }ss
 
-.homePageSection img {
+.infoSection img {
     border: 2px solid rgb(161, 94, 94);
 }
 
-.homePageSection hr{
+.infoSection hr{
     background: url('skelly-row-removebg-preview.png') no-repeat top center;
     background-size: contain;
     display: block;
@@ -63,50 +63,8 @@ table {
     position: relative;
 }
 
-.characterIntro {
-    background-color: indianred;
-    border: 2px solid black;
-    margin-top: 15px;
-    padding-bottom: 10px;
-}
-
-.characterIntro h1, h2 {
-
-    background-color: rgba(126, 45, 45, 0.89);
-    color: black;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-
-}
-
-.characterIntro h2 {
-
-    background-color: rgba(156, 57, 57, 0.89);
-    color: black;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-}
-
-.characterIntro p {
-
-        color: rgb(41, 38, 38);
-
-    }
-
-.characterIntro img {
-        border: 2px solid rgb(161, 94, 94);
 
 
-        }
-
-.homePageSection hr{
-    background: url('skelly-row-removebg-preview.png') no-repeat top center;
-    background-size: contain;
-    display: block;
-    height: 30px;
-    border: 0;
-    position: relative;
-    
 .olympianCell {
 
     text-align: justify;
