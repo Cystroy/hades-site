@@ -1,9 +1,76 @@
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(41, 38, 38);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  
+.main {
+    position: relative;
+    margin-left: 160px;
+    padding: 0px 10px;
+
+}
+
+.main .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(Images/Olympians/hades_bg.jpg);
+    opacity: .2;
+    background-size: contain;
+}
+
+.sidenavSubitem {
+    list-style-type:none;
+}
+
+.sidenavSubitem a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+  .sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(160, 139, 21);
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+
 body {
     background-color: 8B0000;
 
 }
- td {
-    border: 1px solid black;
+
+p{
+    font-size: 14px;
 }
 
 th {
@@ -11,6 +78,7 @@ th {
     border: 1px solid black;
 
 }
+
 table {
     background-color: 9f6e75;
 }
@@ -27,35 +95,48 @@ table {
     width: 50%;
 }
 
+/* info section stylings */
+
 .infoSection {
     background-color: indianred;
     border: 2px solid black;
     margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 10px;
+    text-align:center;
+    width: 80%;
 }
 
 
-.infoSection h2 {
+.infoSection h1, h2, h3 {
 
     background-color: rgb(119, 45, 45);
     color: black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    text-align:center;
 
 }
 
 .infoSection p {
 
     color: rgb(41, 38, 38);
-
-}ss
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
 
 .infoSection img {
-    border: 2px solid rgb(161, 94, 94);
+    border: 2px solid goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
 }
 
 .infoSection hr{
-    background: url('skelly-row-removebg-preview.png') no-repeat top center;
+    background: url('Images/OtherCharacters/skelly-row-removebg-preview.png') no-repeat top center;
     background-size: contain;
     display: block;
     height: 30px;
@@ -63,6 +144,38 @@ table {
     position: relative;
 }
 
+/* table stylings */
+.infoSection table{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.infoSection table tr td p {
+    font-weight:bold ;
+    text-align: center;
+
+}
+
+.infoSection table tr td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.infoSection table tr td{
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.info img{
+
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 .olympianCell {
