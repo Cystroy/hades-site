@@ -25,7 +25,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(Images/Olympians/hades_bg.jpg);
+    background: url(../HTML/Images/Olympians/hades_bg.jpg);
     opacity: .2;
     background-size: contain;
 }
@@ -34,10 +34,10 @@
     list-style-type:none;
 }
 
-.sidenavSubitem a{
-    padding: 6px 8px 6px 16px;
+.sidenavSubitem li a{
+    padding: 0px 8px 6px 0px;
     text-decoration: none;
-    font-size: 1px;
+    font-size: 12px;
     color: #818181;
     display: block;
     border: none;
@@ -180,7 +180,7 @@ table {
 
 .olympianCell {
 
-    text-align: justify;
+    text-align: justify;;
 
 }
 
